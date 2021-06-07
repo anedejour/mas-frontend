@@ -23,7 +23,7 @@ export function Summary() {
 
     useEffect(() => {
 
-        api.get('/activy')
+        api.get('/activity')
             .then(response => setActivies(response.data))
     },[])
 
